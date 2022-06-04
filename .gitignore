@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+.DS_STORE
+src/.DS_STORE
+ios/*.lock
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -40,6 +44,10 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+ios/Pods/
+android/build/
+android/app/build/
+android/.gradle/
 
 # TypeScript v1 declaration files
 typings/
